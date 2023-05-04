@@ -1,0 +1,364 @@
+*{margin: 0;
+  padding: 0;
+block-size: boder-box;
+}
+
+/**barra de navegacion**/
+body{
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+  
+
+}
+
+
+
+
+
+header{
+    top: 0;
+    position: sticky;
+    background-color:#313131;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding: 10px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    margin-right:10px;
+    width: 70px;
+}
+
+header a{
+    justify-content: right;
+    text-decoration: none;
+    color: white;
+    font-size:larger;
+    padding-right: 10px;
+}
+
+a:hover{
+    color: black;
+    background-color: rgb(182, 182, 231);
+}
+
+/**main**/
+
+.cajauno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.cajauno h1{
+    margin-bottom: 40px;
+    font-size: 66px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+.titulo-de-h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin: 30px;
+}
+
+
+
+/** cajas **/
+.contenedorpadre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.cajitas{
+background-color: #313131;
+color: white;
+width: 400px;
+height: 300px;
+margin: 10px 20px;
+border-color: black;
+border-radius: 6%;
+text-align: center;
+padding-top: 20px;
+box-shadow: 15px 10px 4px 2px rgba(32,32,32,0.3);
+}
+
+.cajitas:hover{
+    background-color: rgb(166, 166, 166);
+    color: black;
+}
+
+
+.cajitas button{
+    margin: 10%;
+    margin-top: 10px;
+    background-color: rgb(178, 172, 172);
+    border-color: rgb(0, 0, 0);
+}
+
+
+
+/**footer**/
+.contenedorpadre1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-color: rgb(163, 163, 168);
+    background-color: #313131;
+    color: rgb(205, 201, 201);
+    border: 10px; 
+    height: 300px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+
+.copy{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color: #313131;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+/**segunda pestaña**/
+.cajasdelasegundapestaña{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+.cajasdelasegundapestaña p{
+    font-size: 25px;
+}
+
+.titulodos{
+    text-align: center;
+    padding-top: 40px;
+}
+
+/** tercera pestaña**/
+
+.empresas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.colaboradores{
+    margin: 50px 20px 10px;
+justify-content: space-around;
+width: 400px;
+
+
+    
+}
+
+/**cuarta pestaña**/
+.tituloDeNuestraComunidad{
+    text-align: center;
+    font-size: 60px;
+
+}
+.parrafoPrincipal{
+    margin: 50px ;
+    font-size:150%;
+    
+}
+
+.Contenedorderedes{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.redes{
+    margin: 50px 20px 10px 100px;
+justify-content: space-around;
+width: 400px;
+}
+ 
+
+/**quinta pestaña**/
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #ede9e9;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #215ee4;
+}
+
+.contact-form form button {
+    background: #215ee4;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #215ee4;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contact-info {
+    background: #313131;
+    color: rgb(68, 68, 219);
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+
+@media(min-width: 700px) {
+    body {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 576px) { 
+
+    /*header*/
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    header a{
+        font-size: 12px;
+    }
+
+
+    /*main*/
+
+    .cajauno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*footer*/
+    .contenedorpadre1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+    }
+
+    .info{
+        margin: 10px;
+    }
+ }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) {  }
