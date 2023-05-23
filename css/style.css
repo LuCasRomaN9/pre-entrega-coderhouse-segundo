@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  block-size: boder-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Bebas Neue", cursive;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+header {
+  top: 0;
+  position: sticky;
+  background-color: #313131;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding: 10px;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header img {
+  margin-right: 10px;
+  width: 70px;
+}
+header nav a {
+  justify-content: right;
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  padding-right: 10px;
+  box-shadow: 15px 5px 4px 2px rgba(48, 175, 239, 0.548);
+}
+header nav a:hover {
+  box-shadow: 10px 15px 4px 2px rgb(77, 65, 246);
+}
+
+main .cajauno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+main .cajauno h1 {
+  margin-bottom: 40px;
+  font-size: 66px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .cajauno p {
+  font-size: 20px;
+}
+main .titulo-de-h2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  margin: 30px;
+}
+main .contenedorpadre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: white;
+}
+main .cajitas {
+  background-color: #313131;
+  color: white;
+  width: 400px;
+  height: 300px;
+  margin: 10px 20px;
+  border-color: black;
+  border-radius: 6%;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 15px 10px 4px 2px rgba(32, 32, 32, 0.3);
+  cursor: default;
+  transition: all 400ms ease;
+}
+main .cajitas:hover {
+  box-shadow: 20px 15px 8px 4px rgb(77, 65, 246);
+  transform: translateY(-3%);
+}
+main .cajitas button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: rgb(253, 254, 255);
+  border: 1px solid rgb(27, 86, 223);
+  background-color: rgb(88, 88, 88);
+  transition: all 400ms ease;
+}
+
+main .empresas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .empresas .colaboradores {
+  margin: 50px 20px 10px;
+  justify-content: space-around;
+  width: 400px;
+}
+
+main h1 .tituloDeNuestraComunidad {
+  text-align: center;
+  font-size: 60px;
+}
+main .parrafoPrincipal {
+  margin: 50px;
+  font-size: 150%;
+}
+main .Contenedorderedes {
+  display: flex;
+  flex-direction: row;
+}
+main .Contenedorderedes .redes {
+  margin: 50px 20px 10px 100px;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.content h1 .logo {
+  text-align: center;
+  font-size: 3em;
+}
+.content .contact-wrapper {
+  padding: 1em;
+}
+.content .contact-wrapper .contact-form {
+  background: #ede9e9;
+}
+.content .contact-wrapper .contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+.content .contact-wrapper .contact-form form p button {
+  background: #215ee4;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+.content .contact-wrapper .contact-info {
+  background: #313131;
+  color: rgb(68, 68, 219);
+}
+.content .contact-wrapper .contact-info h4 {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+.content .contact-wrapper .contact-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+.content .contact-wrapper .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+@media (min-width: 700px) {
+  body {
+    padding: 0 4em;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+    padding: 2em;
+  }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    text-align: left;
+  }
+}
+footer .contenedorpadre1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-color: rgb(163, 163, 168);
+  background-color: #313131;
+  color: rgb(205, 201, 201);
+  border: 10px;
+  height: 300px;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+footer .copy {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  background-color: #313131;
+  color: white;
+  padding: 10px;
+}
+
+@media (max-width: 576px) {
+  /*header*/
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header a {
+    font-size: 12px;
+  }
+  /*main*/
+  .cajauno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*footer*/
+  .contenedorpadre1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+  }
+  .info {
+    margin: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

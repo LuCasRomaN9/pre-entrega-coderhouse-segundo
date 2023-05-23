@@ -1,0 +1,14 @@
+main{
+    .empresas{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+     
+    .colaboradores{
+        margin: 50px 20px 10px;
+        justify-content: space-around;
+        width: 400px;
+    }
+    }
+}
+
