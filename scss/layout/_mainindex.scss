@@ -13,7 +13,7 @@ main{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         p{
-            font-size: 20px;
+            font-size: 25px;
         }
         }
 
@@ -48,17 +48,6 @@ main{
         .cajitas:hover{
             box-shadow: 20px 15px 8px 4px rgba(77, 65, 246, 3);
             transform: translateY(-3%);
-        }
-
-        .cajitas button{
-         text-decoration: none;
-         display: inline-block;
-         padding: 10px;
-         margin-top: 10px;
-         color: rgb(253, 254, 255);
-         border: 1px solid rgb(27, 86, 223) ;
-         background-color: rgb(88, 88, 88);
-         transition: all 400ms ease;
         }
         
 }

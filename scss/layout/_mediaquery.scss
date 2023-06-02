@@ -1,51 +1,60 @@
-@media (max-width: 576px) { 
 
-    /*header*/
-  
+@media (max-width:576px){ 
+
     header{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-  
-  
+
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
     header a{
         font-size: 12px;
+        
     }
-  
-  
-    /*main*/
-  
-    .cajauno{
-        display: flex;
+
+    main .cajauno{
+        p{
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+    
+
+    .contact-info{
+        padding: 30px;
+
+        ul{
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+   
+    }
+
+    .parrafoPrincipal{
+        p{
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+
+    main .Contenedorderedes{
+        // background-color: red;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
     }
-  
-    /*footer*/
-    .contenedorpadre1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 650px;
+
+    main .Contenedorderedes .redes{
+        width: 0;
+    }
+    
     }
   
-    .info{
-        margin: 10px;
-    }
-  }
-  
-  
-  @media (min-width: 768px) {  }
-  
-  
-  @media (min-width: 992px) {  }
-  
-  
-  @media (min-width: 1200px) {  }
-  
-  
-  @media (min-width: 1400px) {  }
