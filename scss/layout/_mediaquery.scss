@@ -1,6 +1,6 @@
 
 @media (max-width:576px){ 
-
+    
     header{
         display: flex;
         flex-direction: column;
@@ -50,6 +50,11 @@
         // background-color: red;
         flex-direction: column;
         justify-content: center;
+
+        img{
+            width: 120px;
+            
+        }
     }
 
     main .Contenedorderedes .redes{
@@ -57,4 +62,20 @@
     }
     
     }
+
+
+    
+ @media (min-width:700px){ 
+
+     body{
+         padding: 0;
+     }
+    
+    
+     }
+
+
+
+    
   
+

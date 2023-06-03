@@ -224,8 +224,16 @@ main .Contenedorderedes .redes {
     flex-direction: column;
     justify-content: center;
   }
+  main .Contenedorderedes img {
+    width: 120px;
+  }
   main .Contenedorderedes .redes {
     width: 0;
+  }
+}
+@media (min-width: 700px) {
+  body {
+    padding: 0;
   }
 }
 footer {
